@@ -5,24 +5,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./normalize.css" class="rel">
+  <link rel="stylesheet" href="./main.css" class="rel">
   <title>Beats</title>
 </head>
 
 <body>
 
   <div class="wrapper">
-    <section class="hero">
-      <div class="container">
-        <header class="header">
+    <div class="maincontent">
 
-          <div class="header__col header__col-logo">
-            <a href="#" class="logo">
-              <img src="./img/logo.png" alt="Logo" class="logo__img">
-            </a>
-          </div>
+      <section class="hero">
+        <div class="container hero__container">
 
-          <div class="header__col">
+          <header class="header">
+            <img src="./img/logo.png" alt="Logo" class="logo">
             <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
@@ -34,177 +30,288 @@
                 <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
               </ul>
             </nav>
+            <a href="tel:88009039090" class="phone">
+              <span class="phone__number">
+                <img src="./img/phone.png" alt="Phone icon" class="phone__icon">
+              </span>
+              <span class="phone__text">8 800 903 90 90</span>
+            </a>
+          </header>
+
+          <div class="hero__content">
+            <h1 class="content__title">Беспроводные наушники Beats Solo 3</h1>
+            <div class="content__text">Встречайте новую версию наушников из линейки Powerbeats.</div>
+            <button class="btn">ЗАКАЗАТЬ</button>
           </div>
 
-          <div class="header__col">
-            <address class="contacts">
-              <a href="tel:88009039090" class="contacts__phone">8 800 903 90 90</a>
-            </address>
-          </div>
-        </header>
-
-        <div class="preview">
-          <div class="preview__title">Беспроводные наушники Beats Solo 3</div>
-          <div class="preview__text">Встречайте новую версию наушников из линейки Powerbeats.</div>
-          <button class="button">ЗАКАЗАТЬ</button>
-        </div>
-
-        <div class="description">
-          <ul class="description__list">
-            <li class="description__item">
-              <img src="./img/main-2.png" alt="Безупречный звук" class="description__img">
-              <div class="description__text">Безупречный звук</div>
-            </li>
-            <li class="description__item">
-              <img src="./img/main-2.png" alt="До 40 часов работы" class="description__img">
-              <div class="description__text">До 40 часов работы</div>
-            </li>
-            <li class="description__item">
-              <img src="./img/main-3.png" alt="Технология Fast Fuel" class="description__img">
-              <div class="description__text">Технология Fast Fuel</div>
-            </li>
-          </ul>
-        </div>
-
-        <div class="slider">
-          <ul class="slider__list">
-            <li class="slider__item">
-              <button class="slider__button"></button>
-            </li>
-            <li class="slider__item">
-              <button class="slider__button"></button>
-            </li>
-            <li class="slider__item">
-              <button class="slider__button"></button>
-            </li>
-            <li class="slider__item">
-              <button class="slider__button"></button>
-            </li>
-            <li class="slider__item">
-              <button class="slider__button"></button>
-            </li>
-            <li class="slider__item">
-              <button class="slider__button"></button>
-            </li>
-            <li class="slider__item">
-              <button class="slider__button"></button>
-            </li>
-            <li class="slider__item">
-              <button class="slider__button"></button>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="why">
-      <div class="container">
-
-        <div class="why__description">
-          <div class="why__title">почему beats solo 3?</div>
-          <div class="why__text">Процессор W1 работает невероятно эффективно и позволяет легко подключать наушники к
-            различным устройствам Apple.</div>
-        </div>
-
-        <div class="why__icons">
-          <ul class="why__icons-list">
-            <li class="why__icons-item">
-              <img src="./img/feat-1.png" alt="40 часов работы" class="why__img">
-              <div class="why__icons-title">40 часов работы</div>
-              <div class="why__icons-text">Наушники Beats Solo3 могут работать
-                до 40 часов без подзарядки, чтобы вы
-                могли пользоваться ими каждый день.</div>
-            </li>
-            <li class="why__icons-item">
-              <img src="./img/feat-2.png" alt="Фирменное звучание" class="why__img">
-              <div class="why__icons-title">Фирменное звучание</div>
-              <div class="why__icons-text">Фирменное звучание Beats в наушниках
-                с технологией Bluetooth класса
-                1 будет сопровождать вас повсюду —
-                куда бы вы ни отправились.</div>
-            </li>
-            <li class="why__icons-item">
-              <img src="./img/feat-3.png" alt="Быстрая зарядка" class="why__img">
-              <div class="why__icons-title">Быстрая зарядка</div>
-              <div class="why__icons-text">Благодаря технологии Fast Fuel
-                всего через 5 минут зарядки вы
-                сможете слушать музыку ещё 3 часа.</div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="card">
-      <div class="container">
-
-        <div class="card__photo">
-          <img src="./img/Ellipse 5.png" alt="Item's photo" class="card__img">
-        </div>
-
-        <div class="card__info">
-          <div class="card__menu">
-            <img src="./img/gear 1.png" alt="Item's Menu" class="card__info-img">
-          </div>
-          <div class="card__title">beats solo 3. цвет «атласное серебро»</div>
-          <div class="card__text">Беспроводные наушники Beats Solo3 готовы к работе в любой момент. Включите их и
-            поднесите к своему iPhone — они мгновенно подключатся к нему.</div>
-          <div class="card__options">
-            <ul class="card__options-list">
-              <li class="card__options-item">
-                <div class="card__options-title">Зарядка</div>
-                <div class="card__options-text">2 часа</div>
+          <div class="hero__icons-section">
+            <ul class="features">
+              <li class="hero__item features">
+                <div class="hero__icon">
+                  <img src="./img/main-2.png" alt="Безупречный звук" class="hero__img">
+                </div>
+                <div class="hero__text">Безупречный звук</div>
               </li>
-              <li class="card__options-item">
-                <div class="card__options-title">Вес</div>
-                <div class="card__options-text">215 грамм</div>
+              <li class="hero__item features">
+                <div class="hero__icon">
+                  <img src="./img/main-2.png" alt="До 40 часов работы" class="hero__img">
+                </div>
+                <div class="hero__text">До 40 часов работы</div>
+              </li>
+              <li class="hero__item features">
+                <div class="hero__icon">
+                  <img src="./img/main-3.png" alt="Технология Fast Fuel" class="hero__img">
+                </div>
+                <div class="hero__text">Технология Fast Fuel</div>
               </li>
             </ul>
           </div>
-          <div class="card__price">14 990 P</div>
-          <button class="button">ЗАКАЗАТЬ</button>
+
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="review">
-      <div class="container">
+      <section class="section why-section">
+        <div class="container">
 
-        <div class="review__header">ОТЗЫВЫ</div>
-        
-        <div class="review__main">
-          <div class="user__review">
-            <div class="user__img">
-              <img src="./img/Rectangle 7.png" alt="User's pic" class="user__photo">
-            </div>    
-            <div class="user_review-main">
-              <div class="review__title">Отличный звук</div>
-              <div class="review__text">Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В
-                течение дня сижу за компьютером  и часто отходить в кафе или на кухню просто не могу себе позволить. А
-                батончик – он всегда под рукой. Это приятно и удобно.</div>
-                <div class="review__author">Билли Айлиш</div>
+          <div class="headline">
+            <h1 class="section__title">почему beats solo 3?</h1>
+            <div class="section__text">Процессор W1 работает невероятно эффективно и позволяет легко подключать наушники
+              к
+              различным устройствам Apple.</div>
+          </div>
+
+          <div class="why__content">
+            <ul class="why__list">
+              <li class="why__item">
+                <div class="why__img-cover">
+                  <img src="./img/feat-1.png" alt="40 часов работы" class="why__img">
+                </div>
+                <div class="why__text-cover">
+                  <h3 class="why__mini-title">40 часов работы</h3>
+                  <div class="why__text">
+                    <p>Наушники Beats Solo3 могут работать
+                      до 40 часов без подзарядки, чтобы вы
+                      могли пользоваться ими каждый день.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="why__item">
+                <div class="why__img-cover">
+                  <img src="./img/feat-2.png" alt="Фирменное звучание" class="why__img">
+                </div>
+                <div class="why__text-cover">
+                  <h3 class="why__mini-title">Фирменное звучание</h3>
+                  <div class="why__text">
+                    <p>Фирменное звучание Beats в наушниках
+                      с технологией Bluetooth класса
+                      1 будет сопровождать вас повсюду —
+                      куда бы вы ни отправились.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="why__item">
+                <div class="why__img-cover">
+                  <img src="./img/feat-3.png" alt="Быстрая зарядка" class="why__img">
+                </div>
+                <div class="why__text-cover">
+                  <h3 class="why__mini-title">Быстрая зарядка</h3>
+                  <div class="why__text">
+                    <p>Благодаря технологии Fast Fuel
+                      всего через 5 минут зарядки вы
+                      сможете слушать музыку ещё 3 часа.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="section card-section">
+        <div class="container">
+
+          <div class="card__photo">
+            <img src="./img/Ellipse 6.png" alt="Item's photo" class="card__img">
+          </div>
+
+          <div class="card__info">
+            <div class="card__menu">
+              <img src="./img/gear 1.png" alt="Item's Menu" class="card__info-img">
             </div>
+            <h3 class="card__title">beats solo 3. цвет «атласное серебро»</h3>
+            <div class="card__text">Беспроводные наушники Beats Solo3 готовы к работе в любой момент. Включите их и
+              поднесите к своему iPhone — они мгновенно подключатся к нему.</div>
+            <div class="card__options">
+              <ul class="card__options-list">
+                <li class="card__options-item">
+                  <div class="card__options-title">Зарядка</div>
+                  <div class="card__options-text">2 часа</div>
+                </li>
+                <li class="card__options-item">
+                  <div class="card__options-title">Вес</div>
+                  <div class="card__options-text">215 грамм</div>
+                </li>
+              </ul>
+            </div>
+            <div class="card__price">14 990 P</div>
+            <button class="btn">ЗАКАЗАТЬ</button>
           </div>
+        </div>
+      </section> -->
 
-          <div class="user__pics">
-            <ul class="user__list">
-              <li class="user__item">
-                <button class="button__img"><img src="./img/Rectangle 5.png" alt="User's photo"></button>
+      <section class="review">
+        <div class="container">
+          <h2 class="section__title">ОТЗЫВЫ</h2>
+          <div class="reviews">
+            <div class="reviews__display">
+              <div class="reviews__display-inner">
+                <div class="reviews__avatar">
+                  <img src="./img/Rectangle 7.png" alt="Reviewer pic" class="reviews__avatar-img">
+                </div>
+                <article class="reviews__content">
+                  <h3 class="reviews__title">Отличный звук</h3>
+                  <div class="reviews__text">
+                    <p>
+                      Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В
+                      течение дня сижу за компьютером и часто отходить в кафе или на кухню просто не могу себе
+                      позволить.
+                      А
+                      батончик – он всегда под рукой. Это приятно и удобно.
+                    </p>
+                  </div>
+                  <div class="reviews__author">Билли Айлиш</div>
+                </article>
+              </div>
+            </div>
+            <ul class="reviews__switcher">
+              <li class="reviews__switcher-item interactive-avatar">
+                <button class="interactive-avatar__button"><img src="./img/Rectangle 5.png" alt="Reviewer photo"
+                    class="interactive-avatar__img"></button>
               </li>
-              <li class="user__item">
-                <button class="button__img"><img src="./img/Rectangle 5(1).png" alt="User's photo"></button>
+              <li class="reviews__switcher-button interactive-avatar">
+                <button class="interactive-avatar__button"><img src="./img/Rectangle 5(1).png" alt="Reviewer photo"
+                    class="interactive-avatar__img"></button>
               </li>
-              <li class="user__item">
-                <button class="button__img"><img src="./img/Rectangle 5(2).png" alt="User's photo"></button>
+              <li class="reviews__switcher-button interactive-avatar">
+                <button class="interactive-avatar__button"><img src="./img/Rectangle 5(2).png" alt="Reviewer photo"
+                    class="interactive-avatar__img"></button>
               </li>
             </ul>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
+      <section class="section order-section">
+        <div class="container">
+          <h2 class="order__title">Закажите доставку</h2>
 
+          <form class="form">
+            <div class="form__col">
+              <div class="form__row">
+                <label class="form__block">
+                  <div class="form__title">Имя</div>
+                  <input type="text" class="form__input">
+                </label>
+                <label class="form__block">
+                  <div class="form__title">Телефон</div>
+                  <input type="text" class="form__input">
+                </label>
+              </div>
+              <div class="form__row">
+                <label class="form__block">
+                  <div class="form__title">Улица</div>
+                  <input type="text" class="form__input">
+                </label>
+              </div>
+              <div class="form__row">
+                <label class="form__block">
+                  <div class="form__title">Дом</div>
+                  <input type="text" class="form__input">
+                </label>
+                <label class="form__block">
+                  <div class="form__title">Корпус</div>
+                  <input type="text" class="form__input">
+                </label>
+                <label class="form__block">
+                  <div class="form__title">Квартира</div>
+                  <input type="text" class="form__input">
+                </label>
+                <label class="form__block">
+                  <div class="form__title">Этаж</div>
+                  <input type="text" class="form__input">
+                </label>
+              </div>
+            </div>
+
+            <div class="form__col">
+              <div class="form__row">
+                <label class="form__block">
+                  <div class="form__title">Комментарий</div>
+                  <textarea class="form__input form__input--textarea"></textarea>
+                </label>
+              </div>
+              <div class="form__controls">
+                <label class="radio">
+                  <input type="radio" name="option" class="radio__elem">
+                  <div class="radio__visible"></div>
+                  <div class="radio__title">Потребуется сдача</div>
+                </label>
+                <label class="radio">
+                  <input type="radio" name="option" class="radio__elem">
+                  <div class="radio__visible"></div>
+                  <div class="radio__title">Оплата по карте</div>
+                </label>
+              </div>
+              <div class="form__controls">
+                <label class="radio radio--checkbox">
+                  <input type="checkbox" class="radio__elem">
+                  <div class="radio__visible"></div>
+                  <div class="radio__title">Не перезванивать</div>
+                </label>
+              </div>
+              <div class="form__btns">
+                <input type="submit" value="Заказать" class="btn">
+                <input type="reset" value="Очистить" class="btn-transparent">
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+    </div>
   </div>
+
+  <nav class="fixed-menu">
+    <ul class="fixed-menu__list">
+      <li class="fixed-menu__item fixed-menu__item--active">
+        <button class="fixed-menu__button"></button>
+      </li>
+      <li class="fixed-menu__item">
+        <button class="fixed-menu__button"></button>
+      </li>
+      <li class="fixed-menu__item">
+        <button class="fixed-menu__button"></button>
+      </li>
+      <li class="fixed-menu__item">
+        <button class="fixed-menu__button"></button>
+      </li>
+      <li class="fixed-menu__item">
+        <button class="fixed-menu__button"></button>
+      </li>
+      <li class="fixed-menu__item">
+        <button class="fixed-menu__button"></button>
+      </li>
+      <li class="fixed-menu__item">
+        <button class="fixed-menu__button"></button>
+      </li>
+      <li class="fixed-menu__item">
+        <button class="fixed-menu__button"></button>
+      </li>
+    </ul>
+  </nav>
 </body>
 
 </html>
