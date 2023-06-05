@@ -255,11 +255,14 @@ img {
   font-size: 16px;
   color: #666666;
   padding: 0 26%;
-  margin-bottom: 42px;
 }
 
 .headline {
   text-align: center;
+}
+
+.headline {
+  margin-bottom: 42px;
 }
 
 .why-section {
@@ -284,6 +287,7 @@ img {
           flex: 1;
   padding: 0 3%;
   text-align: center;
+  position: relative;
 }
 .why__item:before {
   content: url("./img/2204.png");
@@ -343,6 +347,10 @@ img {
   font-family: Play;
   font-weight: 700;
   font-size: 24px;
+}
+
+.review {
+  height: 100vh;
 }
 
 .reviews__display {
@@ -436,6 +444,8 @@ img {
   top: 0;
   left: 0;
   right: 0;
+  bottom: 0;
+  padding: 0;
 }
 
 .interactive-avatar__img {
@@ -444,6 +454,10 @@ img {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.order-section {
+  height: 100vh;
 }
 
 .order__title {
@@ -457,6 +471,7 @@ img {
 
 .order-section {
   background: url("./img/cta1.svg");
+  background-size: cover;
 }
 
 .form {
@@ -479,7 +494,6 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 14px;
 }
 
 .form__block {
@@ -542,6 +556,7 @@ img {
       -ms-user-select: none;
           user-select: none;
   margin-right: 10px;
+  margin-bottom: 30px;
 }
 .radio:last-child {
   margin-right: 0px;
@@ -567,7 +582,6 @@ img {
   border-radius: 50%;
   background: #fff;
   margin-right: 10px;
-  margin-bottom: 17px;
 }
 .radio__visible:last-child {
   margin-right: 0px;
@@ -586,10 +600,6 @@ img {
           transform: translate(-50%, -50%);
 }
 
-.radio--checkbox {
-  margin-bottom: 30px;
-}
-
 .fixed-menu {
   position: fixed;
   top: 30%;
@@ -599,6 +609,9 @@ img {
 
 .fixed-menu__item {
   margin-bottom: 5px;
+}
+.fixed-menu__item:last-child {
+  margin-bottom: 0px;
 }
 .fixed-menu__item--active .fixed-menu__button {
   border-color: #E01F3D;
@@ -611,6 +624,7 @@ img {
   border: 1px solid transparent;
   display: block;
   position: relative;
+  cursor: pointer;
 }
 .fixed-menu__button:before {
   content: "";
