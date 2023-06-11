@@ -132,7 +132,6 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 100%;
-  width: 57.625rem;
 }
 @media screen and (max-width: 768px) {
   .hero__container {
@@ -152,7 +151,6 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.1;
-  padding-right: 23%;
   margin-bottom: 1.375rem;
 }
 
@@ -408,6 +406,9 @@ img {
     margin-bottom: 1.1875rem;
     text-align: left;
   }
+  .why__item:last-child {
+    margin-bottom: 0;
+  }
 }
 .why__item:before {
   content: url("./img/2204.png");
@@ -446,6 +447,13 @@ img {
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: 1.5rem;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+@media screen and (max-width: 480px) {
+  .why__img-cover {
+    margin-bottom: 0;
+  }
 }
 
 .why__img {
@@ -890,6 +898,9 @@ img {
 }
 
 .hamburger {
+  position: fixed;
+  top: 3%;
+  right: 3%;
   width: 24px;
   height: 20px;
   -webkit-box-orient: vertical;
@@ -916,7 +927,12 @@ img {
   border-radius: 10px;
 }
 
-.footer {
+.section-map {
+  position: relative;
+  height: 100vh;
+}
+
+.footer_map {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -929,6 +945,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: absolute;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
