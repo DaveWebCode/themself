@@ -123,8 +123,9 @@ svg {
             align-items: center;
     text-align: center;
   }
-  .hero__content::before {
-    background-image: url("./img/Ellipse 5.png") right center no-repeat;
+  .hero__content::after {
+    content: "";
+    background: url("./img/Ellipse 5.png") center no-repeat;
   }
 }
 
