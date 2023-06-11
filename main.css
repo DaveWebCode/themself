@@ -86,6 +86,12 @@ img {
   max-width: 100%;
 }
 
+svg {
+  display: block;
+  max-width: 100%;
+  padding: 0;
+}
+
 .hero {
   background-color: #F5F5F5;
   height: 100vh;
@@ -886,6 +892,7 @@ img {
   display: block;
   position: relative;
   cursor: pointer;
+  background: transparent;
 }
 .fixed-menu__button:before {
   content: "";
