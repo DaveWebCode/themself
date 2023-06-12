@@ -123,9 +123,14 @@ svg {
             align-items: center;
     text-align: center;
   }
-  .hero__content::after {
+  .hero__content::before {
     content: "";
     background: url("./img/Ellipse 5.png") center no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 500px;
+    max-height: 500px;
+    height: 100%;
   }
 }
 
