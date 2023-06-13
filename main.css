@@ -638,6 +638,9 @@ svg {
   overflow: hidden;
   position: relative;
 }
+.interactive-avatar--active {
+  border-color: red;
+}
 
 .interactive-avatar__button {
   display: block;
@@ -647,6 +650,7 @@ svg {
   right: 0;
   bottom: 0;
   padding: 0;
+  border: 0;
 }
 
 .interactive-avatar__img {
