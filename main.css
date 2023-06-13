@@ -131,6 +131,7 @@ svg {
     width: 500px;
     max-height: 500px;
     height: 100%;
+    margin-bottom: 10%;
   }
 }
 
@@ -201,8 +202,8 @@ svg {
 }
 
 .logo {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 3rem;
+  width: 3rem;
 }
 
 .menu {
@@ -980,6 +981,8 @@ svg {
   left: 0;
   right: 0;
   height: 5.4375rem;
+  background-color: #fff;
+  width: 100%;
 }
 @media screen and (max-width: 480px) {
   .footer__container {
