@@ -200,6 +200,11 @@ svg {
           justify-content: space-between;
 }
 
+.logo {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
 .menu {
   margin: 0 30px;
   padding-top: 10px;
@@ -972,6 +977,8 @@ svg {
       -ms-flex-align: center;
           align-items: center;
   bottom: 0;
+  left: 0;
+  right: 0;
   height: 5.4375rem;
 }
 @media screen and (max-width: 480px) {
