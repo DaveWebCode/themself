@@ -954,10 +954,6 @@ svg {
   border-radius: 10px;
 }
 
-.footer {
-  background-color: #fff;
-}
-
 .section-map {
   position: relative;
   height: 100vh;
@@ -971,6 +967,7 @@ svg {
   padding: 1.4375rem 0;
   height: 100%;
   width: 100%;
+  background: #FFFFFF;
 }
 
 .footer__container {
