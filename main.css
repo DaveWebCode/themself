@@ -954,15 +954,20 @@ svg {
   border-radius: 10px;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 5.4375rem;
+  background-color: #FFFFFF;
+}
+
 .section-map {
   position: relative;
 }
 
 .footer_map {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
   padding: 1.4375rem 0;
 }
 
@@ -977,11 +982,9 @@ svg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  bottom: 0;
+  bottom: 0.625rem;
   left: 0;
   right: 0;
-  height: 5.4375rem;
-  background-color: #FFFFFF;
 }
 @media screen and (max-width: 480px) {
   .footer__container {
