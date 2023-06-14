@@ -959,7 +959,7 @@ svg {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 5.4375rem;
+  min-height: 5.4375rem;
   background-color: #FFFFFF;
 }
 
