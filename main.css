@@ -1061,22 +1061,103 @@ svg {
   height: 100vh;
 }
 
-.slider__container {
+.slider-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .slider-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.slider-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  top: 50%;
+}
+
+.scroll-left {
+  border: none;
+  background: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+}
+
+.scroll-right {
+  border: none;
+  background: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+}
+
+.sroll-img {
+  position: relative;
+  width: 1.5rem;
+  height: 2.5rem;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .slider__picture {
   padding-right: 3.6875rem;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-left: 4.25rem;
+}
+@media screen and (max-width: 768px) {
+  .slider__picture {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 3.0625rem;
+    margin-top: 5.8125rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.slider__description {
+  min-width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .slider__description {
+    margin-bottom: 8.25rem;
+  }
 }
 
 .slider__icon {
   margin-bottom: 1.5625rem;
+}
+@media screen and (max-width: 768px) {
+  .slider__icon {
+    display: none;
+  }
 }
 
 .slider__title {
@@ -1087,16 +1168,34 @@ svg {
   margin-bottom: 1.5rem;
   width: 86%;
 }
+@media screen and (max-width: 768px) {
+  .slider__title {
+    text-align: center;
+    font-size: 1.75rem;
+    width: 100%;
+  }
+}
 
 .slider__main {
   font-family: "Play";
   font-weight: 400;
   font-size: 16px;
 }
+@media screen and (max-width: 768px) {
+  .slider__main {
+    text-align: center;
+  }
+}
 
 .slider__text {
   margin-bottom: 1.5rem;
-  width: 56%;
+  width: 58%;
+}
+@media screen and (max-width: 768px) {
+  .slider__text {
+    font-size: 1rem;
+    width: 100%;
+  }
 }
 
 .slider__options {
@@ -1106,6 +1205,14 @@ svg {
   width: 56%;
   margin-bottom: 1.5rem;
 }
+@media screen and (max-width: 768px) {
+  .slider__options {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+}
 
 .slider__option1 {
   -webkit-box-orient: vertical;
@@ -1114,6 +1221,11 @@ svg {
           flex-direction: column;
   margin-right: 5.625rem;
 }
+@media screen and (max-width: 768px) {
+  .slider__option1 {
+    text-align: left;
+  }
+}
 
 .slider__option2 {
   -webkit-box-orient: vertical;
@@ -1121,14 +1233,37 @@ svg {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+@media screen and (max-width: 768px) {
+  .slider__option2 {
+    text-align: left;
+  }
+}
+
+.slider__option-bold {
+  font-family: "Play";
+  font-weight: 700;
+  font-size: 1.125rem;
+}
 
 .slider__order {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+@media screen and (max-width: 768px) {
+  .slider__order {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 
 .slider__price {
   font-size: 36px;
   margin-right: 0.8125rem;
+}
+@media screen and (max-width: 768px) {
+  .slider__price {
+    margin-right: 1.8125rem;
+  }
 }
