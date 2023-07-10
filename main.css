@@ -389,6 +389,7 @@ svg {
 
 .why-section {
   position: relative;
+  height: 100vh;
 }
 .why-section:before {
   content: url("./img/Vector 2.png");
@@ -515,8 +516,13 @@ svg {
   font-size: 1.5rem;
 }
 
-.review {
+.review-section {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100vh;
+  min-height: 40.75rem;
+  padding: 1.5rem 0 2.8125rem;
 }
 
 .reviews__display {
@@ -1067,7 +1073,7 @@ svg {
   display: flex;
   position: relative;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
   .slider-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1086,11 +1092,14 @@ svg {
           justify-content: space-between;
   width: 98%;
   top: 45%;
+  left: -5%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
   .slider-button {
-    top: 22%;
-    min-width: 31%;
+    top: 28%;
+    width: 90%;
+    left: 5%;
+    right: -5%;
   }
 }
 @media screen and (max-width: 480px) {
@@ -1139,7 +1148,7 @@ svg {
       -ms-flex-direction: row;
           flex-direction: row;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
   .slider__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1150,12 +1159,13 @@ svg {
 
 .slider__picture {
   width: 100%;
+  max-width: 28.25rem;
   margin-right: 4.125rem;
+  margin-top: 1.5625rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
   .slider__picture {
-    width: 19.125rem;
-    height: 19.125rem;
+    width: 100%;
     margin-bottom: 3.0625rem;
     margin-left: auto;
     margin-right: auto;
@@ -1167,12 +1177,50 @@ svg {
 }
 
 .slider__icon {
+  position: relative;
   margin-bottom: 1.5625rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
   .slider__icon {
     display: none;
   }
+}
+
+.slider__menu {
+  position: absolute;
+  left: 5.6875rem;
+  top: 0;
+  width: 17.0625rem;
+  height: 18.375rem;
+  background: rgba(215, 215, 215, 0.8) 80%;
+  -webkit-box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 0.0588235294);
+          box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 0.0588235294);
+}
+
+.slider__menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15.375rem;
+  height: 2.75rem;
+  font-family: "Play";
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+.slider__menu-list:last-child {
+  margin-bottom: 0;
+}
+
+.slider__menu-img {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .slider__title {
@@ -1183,11 +1231,11 @@ svg {
   margin-bottom: 1.5rem;
   width: 86%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
   .slider__title {
     text-align: center;
     font-size: 1.75rem;
-    width: 100%;
+    width: 99%;
   }
 }
 
@@ -1196,7 +1244,7 @@ svg {
   font-weight: 400;
   font-size: 16px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
   .slider__main {
     text-align: center;
   }
@@ -1206,7 +1254,7 @@ svg {
   margin-bottom: 1.5rem;
   width: 67%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
   .slider__text {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1230,7 +1278,7 @@ svg {
   width: 56%;
   margin-bottom: 1.5rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
   .slider__options {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1246,7 +1294,7 @@ svg {
           flex-direction: column;
   margin-right: 5.625rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
   .slider__option1 {
     text-align: left;
   }
@@ -1258,7 +1306,7 @@ svg {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
   .slider__option2 {
     text-align: left;
   }
@@ -1275,7 +1323,7 @@ svg {
   display: -ms-flexbox;
   display: flex;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
   .slider__order {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1287,7 +1335,7 @@ svg {
   font-size: 36px;
   margin-right: 0.8125rem;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1220px) {
   .slider__price {
     margin-right: 1.8125rem;
   }
